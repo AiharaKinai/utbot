@@ -1,1 +1,1 @@
-utbot: node bot.js
+utbot: node --harmony bot.js
