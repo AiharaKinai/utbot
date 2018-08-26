@@ -1,1 +1,1 @@
-{"token" : "NDc4MzkxNTgyNjgxNDY0ODMy.DmOmpQ.Z5MnfitqU6XoDtrh7DFWF30nwHg", "prefix" : "!"}
+{"token" : "process.env.BOT_TOKEN", "prefix" : "!"}
