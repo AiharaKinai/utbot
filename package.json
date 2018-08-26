@@ -5,6 +5,10 @@
    "script": {
       "start": "node --harmony bot.js"
    },
+   "engines": {
+    "node": "8.9.4",
+    "npm": "5.7.1"
+  },
    "dependencies": {
       "ajv": "^4.11.5",
       "asn1": "^0.2.3",
