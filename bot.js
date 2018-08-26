@@ -9,7 +9,7 @@ const handleBerita = require('./berita.js');
 const handleBumped = require('./bumped.js');
 
 if (!fs.existsSync('./config.json')) {
-    fs.writeFileSync('./config.json', '{"token" : "NDc4MzkxNTgyNjgxNDY0ODMy.DmOmpQ.Z5MnfitqU6XoDtrh7DFWF30nwHg", "prefix" : "!"}')
+    fs.writeFileSync('./config.json', '{"token" : process.env.BOT_TOKEN, "prefix" : "!"}')
     console.log('WARNING: Config file is missing. Please edit "config.json" and re-run the script.')
     process.exit()
 }
