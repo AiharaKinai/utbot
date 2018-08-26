@@ -1,6 +1,10 @@
 {
    "name": "PCPBot",
    "description": "Discord bot for PSO2.",
+   "main": "bot.js",
+   "script": {
+      "start": "node --harmony bot.js"
+   },
    "dependencies": {
       "ajv": "^4.11.5",
       "asn1": "^0.2.3",
